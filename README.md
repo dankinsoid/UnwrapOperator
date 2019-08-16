@@ -16,6 +16,7 @@ let value: Int = try optionalValue~!
 ```swift
 var optionalInt: Int?
 var optionalString: String?
+
 try? someFunc(value1: optionalInt~!, value2: optionalString~!)
 //instead of 
 //if let int = optionalInt, let string = optionalString {
